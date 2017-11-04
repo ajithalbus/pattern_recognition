@@ -1,0 +1,23 @@
+mak@livewire:~/Desktop/PR$ python polyregnd.py
+10
+normal regression...
+training & validation...
+deg error
+1 0.00487247585005
+2 0.00497105017128
+3 0.00587937971947
+4 0.00636037572083
+least error at 1 deg , error=0.00487247585005
+coef =>  [-0.02464354  0.00098088  0.00344562 -0.00862852  0.00183065  0.00183065
+  0.07637816  0.19132007  0.09365633]
+testing...
+Testing error= 0.00636037572083
+
+
+ridge regression...
+training & validation...
+Lowest power(abs) at lambda =  100
+Best Coef =>  [-0.0300207   0.00156952  0.00365071 -0.01026679  0.00253338  0.00253338
+  0.02192427  0.11094806  0.05429914]
+testing...
+Testing error= 0.00663263614023
